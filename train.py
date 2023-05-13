@@ -1,3 +1,4 @@
+import torch
 from huggingface_hub import login
 import numpy as np
 import evaluate
@@ -9,6 +10,8 @@ from transformers import (
   TrainingArguments,
   DataCollatorWithPadding
 )
+
+print(f"CUDA: {torch.cuda.is_available()}")
 
 # authenticate
 hf_token = None
