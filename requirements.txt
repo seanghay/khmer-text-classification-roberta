@@ -1,0 +1,9 @@
+scikit-learn
+numpy
+torch
+transformers
+accelerate
+datasets
+evaluate
+sentencepiece
+tensorboard
